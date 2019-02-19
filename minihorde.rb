@@ -1,4 +1,4 @@
-class MiniHorde < Formula
+class Minihorde < Formula
   desc "MiniHorde binary"
   homepage "http://github.com/hanlsin/homebrew-tap"
   url "https://github.com/hanlsin/homebrew-tap/blob/master/dist/minihorde/minihorde-0.0.1.tar.gz"
