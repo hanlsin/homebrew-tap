@@ -1,10 +1,9 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://www.rubydoc.info/github/Homebrew/brew/master/Formula
-class HomebrewTap < Formula
-  desc "Homebrew tap for custom formulas."
-  homepage ""
+class MiniHorde < Formula
+  desc "MiniHorde binary"
+  homepage "http://github.com/hanlsin/homebrew-tap"
   url "https://github.com/hanlsin/homebrew-tap/releases/download/minihorde-0.0.1/minihorde-0.0.1.tar.gz"
   sha256 "6ce731853561d4d088b4642078ed9b70a4a0983ad0a78805376387f6e3ed273f"
+  version "0.0.1"
 
   def install
     bin.install "minihorde"
