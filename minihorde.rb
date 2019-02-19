@@ -1,8 +1,8 @@
 class Minihorde < Formula
   desc "MiniHorde binary"
   homepage "http://github.com/hanlsin/homebrew-tap"
-  url "https://github.com/hanlsin/homebrew-tap/blob/master/dist/minihorde/minihorde-0.0.1.tar.gz"
-  sha256 "759fe8e7e2449911eb04512f0c9a81ccba92a057537667f57693c715bac7835a"
+  url "https://github.com/hanlsin/homebrew-tap/releases/download/minihorde-0.0.1/minihorde-0.0.1.tar.gz"
+  sha256 "6ce731853561d4d088b4642078ed9b70a4a0983ad0a78805376387f6e3ed273f"
   version "0.0.1"
 
   def install
